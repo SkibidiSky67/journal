@@ -15,7 +15,7 @@ def blockNotif(fechaActual):
 
 def newEntry(nomArchivo, fechaHoy):
     diasES = { "Mon":"Lunes","Tue":"Martes","Wed":"Miércoles","Thu":"Jueves","Fri":"Viernes","Sat":"Sábado", "Sun":"Domingo"}
-    # diccionario para transformar los días de la semana a su equivalente en español
+    # diccionario para transformar los días de la semana a su equivalente en español xddd
     dia = fechaHoy.strftime("%d")
     mes = fechaHoy.strftime("%m")
     diaSemana = diasES[fechaHoy.strftime("%a")]				# obtiene el dia de la semana a partir del dia de hoy
